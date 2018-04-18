@@ -1,5 +1,6 @@
-docs: /docs/
-api: /api/
-news: /news/
-plugins: /plugins/
-themes: /themes/
+general: /general/
+vim: /vim/
+vim2: /vim2/
+edge: /edge/
+hardware_docs: /hardware_docs/
+firmware: /firmware/
