@@ -1,11 +1,16 @@
-general:                  
-  getting_started:
-    overview: index.html
-
 vim:
   getting_started:
     overview: index.html
     enter_upgrade_mode: HowtoBootIntoUpgradeMode.html
+    upgrade_via_usb: UpgradeViaUSBCable.html
+    install_toolchains: InstallToolchains.html
+    gpio_pinout: GPIOPinout.html
+  uboot:
+    overview: index.html
+  android:
+    overview: index.html
+  linux:
+    overview: index.html
 
 vim2:
   getting_started:

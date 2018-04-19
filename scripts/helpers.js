@@ -7,7 +7,7 @@ var _ = require('lodash');
 var cheerio = require('cheerio');
 var lunr = require('lunr');
 
-var localizedPath = ['docs', 'api'];
+var localizedPath = ['vim', 'vim2', 'edge', 'hardware_docs', 'firmware'];
 
 function startsWith(str, start) {
   return str.substring(0, start.length) === start;
@@ -136,7 +136,7 @@ hexo.extend.helper.register('lunr_index', function(data) {
 hexo.extend.helper.register('canonical_path_for_nav', function() {
   var path = this.page.canonical_path;
 
-  if (startsWith(path, 'docs/') || startsWith(path, 'api/')) {
+  if (startsWith(path, 'vim/') || startsWith(path, 'vim2/') || startsWith(path, 'edge/') || startsWith(path, 'hardware_docs/') || startsWith(path, 'firmware/')) {
     return path;
   }
   return '';

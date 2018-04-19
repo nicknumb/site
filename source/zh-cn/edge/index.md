@@ -1,4 +1,4 @@
-title: General Documentation
+title: Edge Documentation
 ---
 
 ### Welcome to the Khadas Docs!

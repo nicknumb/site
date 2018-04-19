@@ -1,5 +1,4 @@
 menu:
-  general: General
   vim: VIM
   vim2: VIM2
   edge: Edge
@@ -17,20 +16,24 @@ page:
   next: Next
   last_updated: "Last updated: %s"
 
-
 sidebar:
-  general:
-    getting_started: Getting Started
-    overview: Overview
   vim:
     overview: Overview
     getting_started: Getting Started
+    install_toolchains: Install Toolchains
     enter_upgrade_mode: Enter Upgrade Mode
+    upgrade_via_usb: Upgrade Via USB Cable
+    gpio_pinout: GPIO Pinout
+    uboot: U-boot
+    android: Android
+    linux: Linux
   vim2:
     overview: Overview
     getting_started: Getting Started
     enter_upgrade_mode: Enter Upgrade Mode
   edge:
+    overview: Overview
     getting_started: Getting Started
   hardware_docs:
+    overview: Overview
     getting_started: Getting Started
