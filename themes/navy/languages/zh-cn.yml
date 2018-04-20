@@ -19,7 +19,6 @@ sidebar:
   vim:
     getting_started: 开始使用
     overview: 概述
-    install_toolchains: 安装交叉编译器
     enter_upgrade_mode: 进入升级模式
     upgrade_via_usb: 通过USB升级
     upgrade_via_tfcard: 通过TF卡升级
@@ -27,6 +26,8 @@ sidebar:
     extra_power_input: 外部电源供电
     gpio_pinout: GPIO 管脚映射
     setup_development_environment: 搭建开发环境
+    install_toolchains: 安装交叉编译器
+    setup_serial: 设置串口调试工具
     uboot: U-boot
     android: Android
     linux: Linux

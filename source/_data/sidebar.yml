@@ -9,6 +9,7 @@ vim:
     gpio_pinout: GPIOPinout.html
   setup_development_environment:
     install_toolchains: InstallToolchains.html
+    setup_serial: SetupSerialTool.html
   uboot:
     overview: index.html
   android:

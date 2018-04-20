@@ -18,7 +18,6 @@ sidebar:
   vim:
     overview: Overview
     getting_started: Getting started
-    install_toolchains: Install Toolchains
     enter_upgrade_mode: Enter Upgrade Mode
     upgrade_via_usb: Upgrade Via a USB-C Cable
     upgrade_via_tfcard: Upgrade Via a TF Card
@@ -26,6 +25,8 @@ sidebar:
     extra_power_input: Extra Power Input
     gpio_pinout: GPIO Pinout
     setup_development_environment: Setup Environment
+    install_toolchains: Install Toolchains
+    setup_serial: Setup Serial Debugging Tool
     uboot: U-boot
     android: Android
     linux: Linux

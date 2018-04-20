@@ -17,7 +17,7 @@ title: 如何进入升级模式
 
 
 ### 串口模式(针对开发者)
-1. 参考 [这里](/develop/SetupSerialTool.md) 去设置串口.
+1. 参考 [这里](/zh-cn/vim/SetupSerialTool.html) 去设置串口.
 2. 确保串口连接正常并正确配置
 3. 按任意键进入uboot命令行模式
 4. 输入`update`命令进入升级模式
