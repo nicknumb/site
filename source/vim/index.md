@@ -1,7 +1,8 @@
 title: VIM Documentation
 ---
 
-This part is the documentions about Khadas VIM.
+This part of documentations is about Khadas VIM.
 
 [Khadas VIM Information](https://www.khadas.com/vim)
 
+<%- full_date(new Date()) %>

@@ -7,7 +7,7 @@ var _ = require('lodash');
 var cheerio = require('cheerio');
 var lunr = require('lunr');
 
-var localizedPath = ['vim', 'vim2', 'edge', 'hardware_docs', 'firmware'];
+var localizedPath = ['vim', 'vim2', 'edge', 'firmware'];
 
 function startsWith(str, start) {
   return str.substring(0, start.length) === start;
@@ -49,10 +49,13 @@ hexo.extend.helper.register('doc_sidebar', function(className) {
   var path = pathFn.basename(this.path);
   var result = '';
   var self = this;
+
   var prefix = 'sidebar.' + type + '.';
 
   _.each(sidebar, function(menu, title) {
-    result += '<strong class="' + className + '-title">' + self.__(prefix + title) + '</strong>';
+    result += '<strong class="' + className + '-title">' + '<details open>' + '<summary>' + self.__(prefix + title) + '</summary>';
+
+//		result += '<strong class="' + className + '-title">' + self.__(prefix + title) + '</strong>';
 
     _.each(menu, function(link, text) {
       var itemClass = className + '-link';
@@ -60,7 +63,13 @@ hexo.extend.helper.register('doc_sidebar', function(className) {
 
       result += '<a href="' + link + '" class="' + itemClass + '">' + self.__(prefix + text) + '</a>';
     });
+	result += '</details>' + '</strong>';
   });
+
+  console.log("result=========>");
+  console.log(result);                
+  console.log("result<=========\n\n");
+
 
   return result;
 });

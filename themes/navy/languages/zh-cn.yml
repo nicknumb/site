@@ -2,7 +2,6 @@ menu:
   vim: VIM
   vim2: VIM2
   edge: Edge
-  hardware_docs: 硬件
   firmware: 固件
 
 index:
@@ -23,7 +22,16 @@ sidebar:
     install_toolchains: 安装交叉编译器
     enter_upgrade_mode: 进入升级模式
     upgrade_via_usb: 通过USB升级
+    upgrade_via_tfcard: 通过TF卡升级
+    install_le_via_windows: 通过Windows PC安装LE
+    extra_power_input: 外部电源供电
     gpio_pinout: GPIO 管脚映射
+    setup_development_environment: 搭建开发环境
+    uboot: U-boot
+    android: Android
+    linux: Linux
+    hardware: 硬件资料
+    firmware: 固件下载
   vim2:
     getting_started: 开始使用
     overview: 概述

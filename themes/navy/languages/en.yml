@@ -2,8 +2,6 @@ menu:
   vim: VIM
   vim2: VIM2
   edge: Edge
-  hardware_docs: Hardware
-  firmware: Firmware
 
 index:
   get_started: Get started
@@ -19,14 +17,20 @@ page:
 sidebar:
   vim:
     overview: Overview
-    getting_started: Getting Started
+    getting_started: Getting started
     install_toolchains: Install Toolchains
     enter_upgrade_mode: Enter Upgrade Mode
-    upgrade_via_usb: Upgrade Via USB Cable
+    upgrade_via_usb: Upgrade Via a USB-C Cable
+    upgrade_via_tfcard: Upgrade Via a TF Card
+    install_le_via_windows: Install LE Via Windows
+    extra_power_input: Extra Power Input
     gpio_pinout: GPIO Pinout
+    setup_development_environment: Setup Environment
     uboot: U-boot
     android: Android
     linux: Linux
+    hardware: Hardware
+    firmware: Firmware
   vim2:
     overview: Overview
     getting_started: Getting Started

@@ -1,7 +1,8 @@
 #sidebar
   width: sidebar-width
   float: left
-  padding-bottom: 40px
+  padding-bottom: 200px
+  padding-top: 20px
   opacity: 0.8
   margin-left: sidebar-width * -1
   display: none
@@ -9,21 +10,31 @@
     display: block
 
 .sidebar-title
-  margin-top: 40px
-  padding: 10px 0
+  margin-top: 20px
+  padding: 3px 0
   font-family: font-title
   font-weight: bold
-  color: color-link
+  display: block
+  border-top: 0px solid color-border
+  line-height: 0
+
+summary
+  display: block
+  cursor: pointer
+  background:none
+  outline:none
+
+summary::-webkit-details-marker
   display: inline-block
-  border-top: 1px solid color-border
-  line-height: 1
 
 .sidebar-link
   font-family: font-title
   display: block
   color: color-default
   text-decoration: none
-  padding: 7px 0
+  padding-top: 20px
+  padding: 10px 0
+  margin-left: 20px
   line-height: 1
   position: relative
   width: 100%

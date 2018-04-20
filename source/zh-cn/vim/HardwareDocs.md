@@ -1,7 +1,7 @@
-title: Hardware Documentation
+title: 硬件资料
 ---
 
-This part is about hardware documentions of Khadas VIM.
+这篇文档是Khadas VIM相关的硬件资料，包括：原理图、PCB和数据手册等。
 
 [Khadas VIM Schematic](http://www.mediafire.com/file/g23br7h202o8g8r/Vim_V12_Sch.pdf)
 [Khadas VIM PCB Drawing](http://www.mediafire.com/file/grcfvpoe6k5g4mi/Vim_V12_Silk.pdf)
