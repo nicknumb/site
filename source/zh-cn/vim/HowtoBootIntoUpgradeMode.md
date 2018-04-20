@@ -1,31 +1,35 @@
-title: Howto Boot Into Upgrade Mode
+title: 如何进入升级模式
 ---
 
-There are many different ways to boot into upgrade mode listed as following:
+有三种方式进入升级模式，如下:
 
-Usually, the first two methods will meet most of the user needs, but in some case, for example, if burnning a wrong u-boot, or your device cannot even boot any more, in thus cases, you can try with MRegister mode.
+* 按键模式
+* 串口模式
+* `MRegister`模式
 
-### Keys Mode(U-Boot is running)
-1. Power on Vim.
-2. Long press `Power` key without release
-3. Short press ‘Reset’ key and release
-4. Count 2-3 seconds and release the ‘Power’ key to enter into upgrade mode
+通常情况下普通用户会用到前两种方法，但是在某些特殊情况下，会用第三种方法，如：烧录了错误的Uboot导致系统无法启动，进入不了普通升级模式，这时可以采用第三种方式`MRegister`模式。
+
+### 按键模式(U-Boot正常运行)
+1. 给VIM上电
+2. 长按电源按键不松开
+3. 短按复位键
+4. 2-3秒后松开电源按键就会进入升级模式
 
 
-### Serial Mode(For developers)
-1. Refer this [guidance](/develop/SetupSerialTool.md) to setup serial tool for Vim.
-2. Make sure again you've done the right connections and setup.
-3. Hit any keys at the moment of booting to stop autoboot. This step will let Vim boot into u-boot mode.
-4. Type `run update` on the terminal of u-boot as belowing:
+### 串口模式(针对开发者)
+1. 参考 [这里](/develop/SetupSerialTool.md) 去设置串口.
+2. 确保串口连接正常并正确配置
+3. 按任意键进入uboot命令行模式
+4. 输入`update`命令进入升级模式
 ```
-Vim# run update
+VIM# update
 ```
 
 
-### MRegister Mode(Maskrom Mode)
-1. Power on Vim.
-2. Use a tweezer to short-circuit the two pads of `M` register and without release.
-3. Short press `Reset` key and release it to boot into upgrade mode
+### MRegister 模式(Maskrom 模式)
+1. 给VIM上电
+2. 使用镊子短接`M`处的两个焊盘触点不松开
+3. 短按复位键会进入升级模式
 
 ![Image of MRegister_ShortCircuit](/images/MRegister_ShortCircuit.png)
-*Tips: The  `M` register is loacated on the bottom of VIM*
+*提示:  `M` 触点在VIM板底部*

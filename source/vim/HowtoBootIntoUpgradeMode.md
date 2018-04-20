@@ -3,6 +3,10 @@ title: Howto Boot Into Upgrade Mode
 
 There are many different ways to boot into upgrade mode listed as following:
 
+* Keys Mode
+* Serial Mode
+* MRegister Mode
+
 Usually, the first two methods will meet most of the user needs, but in some case, for example, if burnning a wrong u-boot, or your device cannot even boot any more, in thus cases, you can try with MRegister mode.
 
 ### Keys Mode(U-Boot is running)
