@@ -23,6 +23,6 @@ title: 通过USB-C数据线升级固件
 * [外部供电要求](http://docs.khadas.com/basics/ExtraPowerInput/)，部分电脑供电比较弱会导致升级失败。
 
 ### 更多资料
- * [通过TF卡升级固件](http://docs.khadas.com/bootcamp/UpgradeViaTFBurningCard/)
+ * [通过TF卡升级固件](/zh-cn/vim/UpgradeViaTFBurningCard.html)
  * [怎样进入升级模式](/zh-cn/vim/HowtoBootIntoUpgradeMode.html)
 

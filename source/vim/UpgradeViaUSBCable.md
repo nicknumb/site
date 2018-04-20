@@ -29,5 +29,5 @@ Make sure that you have right installed the USB Upgrade Tool, then follow the be
 Have Fun!
 
 ### See also
-* [Upgrade Via a TF Burning Card](/bootcamp/UpgradeViaTFBurningCard.md)
+* [Upgrade Via a TF Burning Card](/vim/UpgradeViaTFBurningCard.html)
 * [Howto Boot Into Upgrade Mode](/vim/HowtoBootIntoUpgradeMode.html)
