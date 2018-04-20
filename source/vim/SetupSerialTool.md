@@ -26,7 +26,7 @@ Another photo for more details(`VCC` Pin is not necessary):
 ![Image of SerialConnections](/images/SerialConnections.png)
 
 
-## Setup the Kermit Protocol(C-Kermit)
+### Setup the Kermit Protocol(C-Kermit)
 **Install the c-kermit:**
 ```sh
 $ sudo apt-get install ckermit
@@ -78,5 +78,5 @@ TE: 116640
 
 
 
-## See Also:
+### See Also:
 * [C-Kermit Offical website](http://www.columbia.edu/kermit/index.html)

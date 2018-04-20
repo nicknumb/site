@@ -25,7 +25,7 @@ title: 设置串口调试工具
 ![Image of SerialConnections](/images/SerialConnections.png)
 
 
-## 设置串口软件`Kermit`
+### 设置串口软件`Kermit`
 **安装c-kermit:**
 ```sh
 $ sudo apt-get install ckermit
@@ -77,5 +77,5 @@ TE: 116640
 
 
 
-## 更多参考:
+### 更多参考:
 * [C-Kermit 官方网站](http://www.columbia.edu/kermit/index.html)
