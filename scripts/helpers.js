@@ -53,9 +53,9 @@ hexo.extend.helper.register('doc_sidebar', function(className) {
   var prefix = 'sidebar.' + type + '.';
 
   _.each(sidebar, function(menu, title) {
-    result += '<strong class="' + className + '-title">' + '<details open>' + '<summary>' + self.__(prefix + title) + '</summary>';
+//    result += '<strong class="' + className + '-title">' + '<details open>' + '<summary>' + self.__(prefix + title) + '</summary>';
 
-//		result += '<strong class="' + className + '-title">' + self.__(prefix + title) + '</strong>';
+	result += '<strong class="' + className + '-title">' + self.__(prefix + title) + '</strong>';
 
     _.each(menu, function(link, text) {
       var itemClass = className + '-link';
@@ -63,12 +63,12 @@ hexo.extend.helper.register('doc_sidebar', function(className) {
 
       result += '<a href="' + link + '" class="' + itemClass + '">' + self.__(prefix + text) + '</a>';
     });
-	result += '</details>' + '</strong>';
+//	result += '</details>' + '</strong>';
   });
 
-  console.log("result=========>");
-  console.log(result);                
-  console.log("result<=========\n\n");
+//  console.log("result=========>");
+//  console.log(result);
+//  console.log("result<=========\n\n");
 
 
   return result;
