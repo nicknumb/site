@@ -20,6 +20,7 @@ vim:
   android:
     download_android_source_code: DownloadAndroidSourceCode.html
     build_android: BuildAndroid.html
+    setup_adb: SetupADB.html
   linux:
     overview: index.html
   hardware:
