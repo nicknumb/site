@@ -5,6 +5,7 @@ vim:
     upgrade_via_usb: UpgradeViaUSBCable.html
     upgrade_via_tfcard: UpgradeViaTFBurningCard.html
     install_le_via_windows: InstallLibreELECViaWindows.html
+    install_le_via_cli: CreateLibreELECBootCardViaCLI.html
     create_burning_card_via_cli: CreateBurnCardViaCLI.html
     extra_power_input: ExtraPowerInput.html
     gpio_pinout: GPIOPinout.html
