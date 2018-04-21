@@ -24,6 +24,7 @@ sidebar:
     install_le_via_windows: Install LE Via Windows
     install_le_via_cli: Install LE Via CLI
     create_burning_card_via_cli: Create Burning Card Via CLI
+    booting_card_vs_burning_card: Booting Card Versus Burning Card
     extra_power_input: Extra Power Input
     gpio_pinout: GPIO Pinout
     setup_development_environment: Setup Environment
