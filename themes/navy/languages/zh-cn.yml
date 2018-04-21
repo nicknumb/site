@@ -25,6 +25,7 @@ sidebar:
     install_le_via_windows: 通过Windows PC安装LE
     install_le_via_cli: 通过命令行安装LE
     create_burning_card_via_cli: 通过命令行创建烧录卡
+    create_booting_card: 通过命令行创建启动卡
     booting_card_vs_burning_card: 启动卡与烧录卡的比较
     extra_power_input: 外部电源供电
     gpio_pinout: GPIO 管脚映射
@@ -35,6 +36,7 @@ sidebar:
     uboot: U-boot
     uboot_usage: U-boot使用说明
     build_boot_logo_for_uboot: 编译U-boot启动Logo
+    setup_tftp: 搭建TFTP服务器
     android: Android
     download_android_source_code: 下载安卓源码
     build_android: 编译安卓源码

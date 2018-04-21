@@ -24,6 +24,7 @@ sidebar:
     install_le_via_windows: Install LE Via Windows
     install_le_via_cli: Install LE Via CLI
     create_burning_card_via_cli: Create Burning Card Via CLI
+    create_booting_card: Create Booting Card Via CLI
     booting_card_vs_burning_card: Booting Card Versus Burning Card
     extra_power_input: Extra Power Input
     gpio_pinout: GPIO Pinout
@@ -34,6 +35,7 @@ sidebar:
     uboot: U-boot
     uboot_usage: U-boot Usage Guidance
     build_boot_logo_for_uboot: Build Boot Logo For U-boot
+    setup_tftp: Setup TFTP Server for U-Boot
     android: Android
     download_android_source_code: Download the Android Source Code
     build_android: Build Android Source Code
