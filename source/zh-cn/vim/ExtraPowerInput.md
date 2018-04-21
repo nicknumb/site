@@ -1,27 +1,31 @@
-title: Khadas VIM外部供电
+title: Khadas VIM外部供电接口
 ---
 
-**说明：**
- * 设备主要由USB-C口供电。
- * 确保适配器电压最高为5.2V，电流推荐值为2000mA。
+### 前言：
+ * 设备主要由USB-C接口供电。
+ * 电源适配器电压确保最高为5.2V，电流推荐值为2000mA。
 
 ### 概述
-khadas VIM 设计了两个主要电源输入口
- * USB-C：用于供电外的同时也可以用于USB的数据传输。
- * VIN：仅用于外部供电，紧挨着USB-C口的4-Pin的电源输入口。
- * USB-C旁边还有一个USB口作为备用电源输入。
+Khadas VIM设计了两个主要电源输入接口
+ * USB-C：可以用作供电，也可以作USB数据传输。
+ * VIN：只用于供电
+ * 备用供电接口：靠近USB-C的USB Host接口，需要准备一个公对公的USB线进行连接。
+
+### 使用USB-C作为外部供电接口
+USB-C是常用的供电接口，在供电的同时也可以作数据传输，比如烧录系统固件、ADB调试...
+![image](/images/usbc_extra_power.png)
 
 ### 使用VIN作为外部供电
-VIN供电口规格参数：4-Pin 1.25mm间距。
-![Image of Extra_Power_VIN_Port](/images/vin_extra_power.png)
-提示：我们目前还没有VIN接口的电源线售卖，需要用户自己DIY。
+VIN供电接口座子规格参数：4-Pin 1.25mm间距。
+![image](/images/vin_extra_power.png)
+提示：目前我们还没有VIN接口的电源线售卖，需要用户自己DIY。
 
-### 使用USB host作为外部供电
-如图所示：需要准备一个公对公的USB线进行外部供电。
-![Image of Male2Male_USB_Extra_Power](/images/male2male_usb_extra_power.png)
+### 使用USB Host作为外部供电
+如图所示：需要准备一个公对公的USB线进行外部供电连接。
+![image](/images/usb_host_extra_power.png)
 
-提示：
- * USB-C旁边的USB口输入电流可达900mA，可作为外部供电口，靠近网口的另外一路USB口输入电流只有500mA。具体细节请参考原理图。
+
+提示：靠近USB-C旁边的USB Host接口输入电流可达900mA，可作为备用外部供电接口。靠近网口的另外一路USB Host接口输入电流只有500mA。具体细节请参考原理图。
 
 ### 更多资料
 [VIM接口描述](/zh-cn/vim/VimInterfaces.html)
