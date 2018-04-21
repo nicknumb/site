@@ -33,6 +33,7 @@ sidebar:
     uboot: U-boot
     android: Android
     download_android_source_code: Download the Android Source Code
+    build_android: Build Android Source Code
     linux: Linux
     hardware: Hardware
     firmware: Firmware
