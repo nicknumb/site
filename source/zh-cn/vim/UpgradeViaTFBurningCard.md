@@ -9,25 +9,34 @@ title: 通过TF卡升级固件
 注意：若是TF卡里面有数据要提前备份出来，制作过程会格式化整个TF卡。
 
 ### 固件升级操作步骤
-1. 运行工具“Burn_Card_Maker.exe”
-![Image of BurnCardMaker_Tool](/images/BurnCardMaker_Tool.png)
+1. 插入TF卡到电脑上，系统有识别到TF的盘符
+![image](/images/tfcard_pc_zh.png)
 
-2. 插入TF到电脑上，识别到TF的盘后：
-   * 在工具的下拉框“Choose the disk”里选择TF卡设备。
-   * 选择"To Partition and Format"(第一次制作TF升级卡时要选上此项)
-   * 点击"Open"按钮选择要升级的固件
-   * 点击"Make"按钮制作TF升级卡
-![Image of BurnCardMaker_Tool_Interface](/images/BurnCardMaker_Tool_Interface.png)
-3. 当所有都完成了之后，点击"Success"按钮完成当前操作。
-4. 从电脑上安全移除TF卡，然后插入到VIM/VIM2的TF卡槽里面。
-5. 连接好HDMI和USB-C线，然后给VIM/VIM2上电。
-6. 让VIM/VIM2进入升级模式
+2. 识别到TF卡后双击运行工具“**Burn_Card_Maker.exe**”
+![image|646x86](/images/BurnCardMaker_Tool_zh.png)
+
+3. 选择工具设置项
+   * 在工具的下拉框“**选中SD卡**”里选择TF卡设备。
+   * 选择"**分区和格式化**"(第一次制作TF升级卡时要选上此项)
+   * 点击"**打开**"按钮选择要升级的固件
+   * 点击"**制作**"按钮制作TF升级卡
+
+    ![image|520x372](/images/BurnCardMaker_Tool_Interface_zh.png)
+
+4. 当所有都完成了之后，会弹出"**Success**"消息，点击“**确定**”按钮完成当前操作。
+![image|519x385](/images/BurnCardMaker_Tool_success_zh.png)
+
+5. 从电脑上安全移除TF卡，然后插入到VIM/ VIM2的TF卡槽里面。
+
+6. 连接好HDMI和USB-C线，然后给VIM/ VIM2上电。
+
+7. 让VIM/ VIM2进入升级模式
    * 长按Power键不要松开
    * 短按Rest键并松开
    * 大概3秒后松开Power键进入固件升级模式
 
 正常操作后，显示器上会显示以下内容：
-![Image of Upgrading_Interface](/images/Upgrading_interface.png)
+![image|690x465](/images/Upgrading_interface.png)
 
 ### 更多资料
  * [通过USB-C数据线](/zh-cn/vim/UpgradeViaUSBCable.html)
