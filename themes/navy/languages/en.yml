@@ -31,6 +31,8 @@ sidebar:
     install_toolchains: Install Toolchains
     setup_serial: Setup Serial Debugging Tool
     uboot: U-boot
+    uboot_usage: U-boot Usage Guidance
+    build_boot_logo_for_uboot: Build Boot Logo For U-boot
     android: Android
     download_android_source_code: Download the Android Source Code
     build_android: Build Android Source Code
