@@ -32,6 +32,7 @@ sidebar:
     setup_serial: Setup Serial Debugging Tool
     uboot: U-boot
     android: Android
+    download_android_source_code: Download the Android Source Code
     linux: Linux
     hardware: Hardware
     firmware: Firmware

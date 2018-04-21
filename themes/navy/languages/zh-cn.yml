@@ -33,6 +33,7 @@ sidebar:
     setup_serial: 设置串口调试工具
     uboot: U-boot
     android: Android
+    download_android_source_code: 下载安卓源码
     linux: Linux
     hardware: 硬件资料
     firmware: 固件下载

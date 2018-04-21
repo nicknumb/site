@@ -16,7 +16,7 @@ vim:
   uboot:
     overview: index.html
   android:
-    overview: index.html
+    download_android_source_code: DownloadAndroidSourceCode.html
   linux:
     overview: index.html
   hardware:
