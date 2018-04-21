@@ -45,6 +45,7 @@ sidebar:
     linux: Linux
     hardware: 硬件资料
     firmware: 固件下载
+    download: 下载
   vim2:
     getting_started: 开始使用
     overview: 概述

@@ -44,6 +44,7 @@ sidebar:
     linux: Linux
     hardware: Hardware
     firmware: Firmware
+    download: Download
   vim2:
     overview: Overview
     getting_started: Getting Started

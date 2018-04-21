@@ -29,7 +29,7 @@ vim:
   hardware:
     overview: HardwareDocs.html
   firmware:
-    overview: Firmware.html
+    download: Firmware.html
 
 vim2:
   getting_started:
