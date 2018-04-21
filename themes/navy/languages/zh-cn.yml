@@ -23,6 +23,7 @@ sidebar:
     upgrade_via_usb: 通过USB升级
     upgrade_via_tfcard: 通过TF卡升级
     install_le_via_windows: 通过Windows PC安装LE
+    create_burning_card_via_cli: 通过命令行创建烧录卡
     extra_power_input: 外部电源供电
     gpio_pinout: GPIO 管脚映射
     setup_development_environment: 搭建开发环境
