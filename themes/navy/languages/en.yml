@@ -27,9 +27,10 @@ sidebar:
     booting_card_vs_burning_card: Booting Card Versus Burning Card
     extra_power_input: Extra Power Input
     gpio_pinout: GPIO Pinout
-    setup_development_environment: Setup Environment
+    development: Development
     install_toolchains: Install Toolchains
     setup_serial: Setup Serial Debugging Tool
+    erase_emmc: How To Erase eMMC Storage
     uboot: U-boot
     uboot_usage: U-boot Usage Guidance
     build_boot_logo_for_uboot: Build Boot Logo For U-boot

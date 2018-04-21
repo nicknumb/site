@@ -10,9 +10,10 @@ vim:
     booting_card_vs_burning_card: BootingCardVsBurningCard.html
     extra_power_input: ExtraPowerInput.html
     gpio_pinout: GPIOPinout.html
-  setup_development_environment:
+  development:
     install_toolchains: InstallToolchains.html
     setup_serial: SetupSerialTool.html
+    erase_emmc: HowtoEraseEMMC.html
   uboot:
     uboot_usage: UBootUsage.html
     build_boot_logo_for_uboot: BuildBootLogoForUboot.html
