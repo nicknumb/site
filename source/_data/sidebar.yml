@@ -55,6 +55,7 @@ vim2:
     download_android_source_code: DownloadAndroidSourceCode.html
     build_android: BuildAndroid.html
     setup_adb: SetupADB.html
+    howto_use_wol: HowtoUseWol.html
   linux:
     fenix_script: FenixScript.html
   hardware:
@@ -78,6 +79,7 @@ edge:
     download_android_source_code: DownloadAndroidSourceCode.html
     build_android: BuildAndroid.html
     setup_adb: SetupADB.html
+    howto_use_wol: HowtoUseWol.html
   linux:
     fenix_script: FenixScript.html
   hardware:

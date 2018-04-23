@@ -74,6 +74,7 @@ sidebar:
     download_android_source_code: 下载安卓源码
     build_android: 编译安卓源码
     setup_adb: 设置ADB
+    howto_use_wol: 如何使用WOL
     linux: Linux
     fenix_script: 编译Ubuntu/Debian固件
     hardware: 硬件资料

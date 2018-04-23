@@ -160,4 +160,4 @@ set_wol: 0
 ```
 
 ### 更多
-[TBD: WOL setup and usage]()。
+[如何使用WOL](/zh-cn/vim2/HowtoUseWol.html)。

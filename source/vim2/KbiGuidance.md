@@ -159,5 +159,5 @@ Of course, for security reason, you might want to disable the WOL:
 kvim2# kbi trigger wol w 0
 set_wol: 0
 ```
-
-You might intersting in [TBD: WOL setup and usage]().
+### See also
+[WOL setup and usage](/vim2/HowtoUseWol.html).
