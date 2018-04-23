@@ -65,6 +65,7 @@ sidebar:
     build_boot_logo_for_uboot: Build Boot Logo For U-boot
     setup_tftp: Setup TFTP Server for U-Boot
     load_image_via_tftp: Load Images with U-Boot via TFTP
+    kbi_guidance: KBI Guidance
     android: Android
     download_android_source_code: Download the Android Source Code
     build_android: Build Android Source Code
