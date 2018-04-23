@@ -9,13 +9,13 @@ title:  Upgrade Via a TF Burning Card
 
 ### Upgrading Steps:
 1. Run ‘Burn_Card_Maker.exe’ tool:
-	![Image of BurnCardMaker_Tool](/images/BurnCardMaker_Tool.png)
+	![Image of BurnCardMaker_Tool](/images/vim/BurnCardMaker_Tool.png)
 2. Insert the TF card into your PC, it should appear as a new drive letter. Then:
 	* Select the TF card drive in the drop-down list of `Choose the disk`.
 	* [Optional] Enable `To Partition and Format`(Enable this when the first time you making the booting card for Vim).
 	* Click `Open` button and choose the image for Vim.
 	* Click `Make` button to create the burning card for Vim:
-	![Image of BurnCardMaker_Tool_Interface](/images/BurnCardMaker_Tool_Interface.png)
+	![Image of BurnCardMaker_Tool_Interface](/images/vim/BurnCardMaker_Tool_Interface.png)
 3. When everything is done, click the `Success` button to quit current operation.
 4. Plug out the TF card from your PC and then insert it into the TF Card slot of Vim.
 5. Connect the USB-C & HDMI cables, and power on Vim.
@@ -26,7 +26,7 @@ title:  Upgrade Via a TF Burning Card
 
 If everything goes fine, now your display/monitor should display like this:
 
-![Image of Upgrading_Interface](/images/Upgrading_interface.png)
+![Image of Upgrading_Interface](/images/vim/Upgrading_interface.png)
 
 Have Fun!
 

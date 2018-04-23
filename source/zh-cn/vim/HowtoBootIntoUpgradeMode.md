@@ -31,5 +31,5 @@ VIM# update
 2. 使用镊子短接`M`处的两个焊盘触点不松开
 3. 短按复位键会进入升级模式
 
-![Image of MRegister_ShortCircuit](/images/MRegister_ShortCircuit.png)
+![Image of MRegister_ShortCircuit](/images/vim/MRegister_ShortCircuit.png)
 *提示:  `M` 触点在VIM板底部*

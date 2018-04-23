@@ -12,7 +12,7 @@ title: Install LibreELEC Via Windows PC
 1. Run Win32DiskImager.
 2. Insert the SD card into your PC, it should appear as a new drive letter
 3. Select the image file and verify the destination drive letter is correct, then click `write`:
-![Image of Win32DiskImagerLibreELEC.jpg](/images/Win32DiskImagerLibreELEC.jpg)
+![Image of Win32DiskImagerLibreELEC.jpg](/images/vim/Win32DiskImagerLibreELEC.jpg)
 4. When write process completed you can safely remove the SD card by right clicking on the drive in Windows explorer and selecting eject.
 
 

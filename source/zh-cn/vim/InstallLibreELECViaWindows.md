@@ -12,7 +12,7 @@ title: 通过Windows电脑安装LibreELEC
 1. 运行Win32DiskImager
 2. 插入TF到电脑上，电脑有识别到TF卡的盘符
 3. 选择固件，并确认已经选择正确的TF卡盘符，然后点击"write":
-![Image of Win32DiskImagerLibreELEC.jpg](/images/Win32DiskImagerLibreELEC.jpg)
+![Image of Win32DiskImagerLibreELEC.jpg](/images/vim/Win32DiskImagerLibreELEC.jpg)
 4. 操作完成后，安全移除TF卡。
 
 ### 从TF启动

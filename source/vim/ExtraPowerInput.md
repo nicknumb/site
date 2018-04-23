@@ -15,18 +15,18 @@ Khadas VIM designed with two power supply ports:
 
 ### Using USB-C as extra power input
 USB-C is a normal power supply interface，can also transport data in the same time，like burning firmware、ADB debug...
-![image](/images/usbc_extra_power.png)
+![image](/images/vim/usbc_extra_power.png)
 
 ### Using VIN as extra power input
 VIN Port spec as a 4-Pin 1.25mm port, and the pins define as following:
    
-![Image of Extra_Power_VIN_Port](/images/vin_extra_power.png)
+![Image of Extra_Power_VIN_Port](/images/vim/vin_extra_power.png)
 *Tips: we haven't develop VIN cable for sale now, so this should be DIY by yourself.*
 
 ### Using USB host as extra power input
 You might be also interested in a male-to-male USB cable to provide the extra power as following:
 
-![Image of Male2Male_USB_Extra_Power](/images/usb_host_extra_power.png)
+![Image of Male2Male_USB_Extra_Power](/images/vim/usb_host_extra_power.png)
 *Tips: the USB port beside the USB-C port is recommened to used as extra power input, as it spec as 900mA, and another one beside LAN port is spec as 500mA. Check the schematic for further details.*
 
 

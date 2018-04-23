@@ -31,5 +31,5 @@ Vim# run update
 2. Use a tweezer to short-circuit the two pads of `M` register and without release.
 3. Short press `Reset` key and release it to boot into upgrade mode
 
-![Image of MRegister_ShortCircuit](/images/MRegister_ShortCircuit.png)
+![Image of MRegister_ShortCircuit](/images/vim/MRegister_ShortCircuit.png)
 *Tips: The  `M` register is loacated on the bottom of VIM*

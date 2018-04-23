@@ -2,7 +2,7 @@ title: VIM GPIO Pinout
 ---
 
 ### Pinout map(V12):
-![Image of Vim GPIO](/images/vim_pinout.png)
+![Image of Vim GPIO](/images/vim/vim_pinout.png)
 
 
 ### Notice
