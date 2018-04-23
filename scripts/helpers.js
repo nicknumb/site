@@ -48,28 +48,30 @@ hexo.extend.helper.register('doc_sidebar', function(className) {
   var sidebar = this.site.data.sidebar[type];
   var path = pathFn.basename(this.path);
   var result = '';
+  var link_temp ='';
+  var open = '';
   var self = this;
 
   var prefix = 'sidebar.' + type + '.';
 
   _.each(sidebar, function(menu, title) {
-//    result += '<strong class="' + className + '-title">' + '<details open>' + '<summary>' + self.__(prefix + title) + '</summary>';
 
-	result += '<strong class="' + className + '-title">' + self.__(prefix + title) + '</strong>';
-
+	link_temp = '';
+    open = '';
     _.each(menu, function(link, text) {
       var itemClass = className + '-link';
-      if (link === path) itemClass += ' current';
+      if (link === path) {
+        open = 'yes';
+	    itemClass += ' current';
+	  }
 
-      result += '<a href="' + link + '" class="' + itemClass + '">' + self.__(prefix + text) + '</a>';
+      link_temp += '<a href="' + link + '" class="' + itemClass + '">' + self.__(prefix + text) + '</a>';
     });
-//	result += '</details>' + '</strong>';
+	if (open === 'yes')
+		result += '<strong class="' + className + '-title">' + '<details open>' + '<summary>' + self.__(prefix + title) + '</summary>' + link_temp + '</details>' + '</strong>';
+	else
+		result += '<strong class="' + className + '-title">' + '<details>' + '<summary>' + self.__(prefix + title) + '</summary>' + link_temp + '</details>' + '</strong>';
   });
-
-//  console.log("result=========>");
-//  console.log(result);
-//  console.log("result<=========\n\n");
-
 
   return result;
 });
