@@ -18,6 +18,7 @@ sidebar:
   vim:
     overview: Overview
     getting_started: Getting started
+    vim_interfaces: VIM Interfaces
     enter_upgrade_mode: Enter Upgrade Mode
     upgrade_via_usb: Upgrade Via a USB-C Cable
     upgrade_via_tfcard: Upgrade Via a TF Card
@@ -49,6 +50,7 @@ sidebar:
   vim2:
     overview: Overview
     getting_started: Getting started
+    vim2_interfaces: VIM2 Interfaces
     enter_upgrade_mode: Enter Upgrade Mode
     upgrade_via_usb: Upgrade Via a USB-C Cable
     upgrade_via_tfcard: Upgrade Via a TF Card

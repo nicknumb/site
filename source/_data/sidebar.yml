@@ -1,6 +1,7 @@
 vim:
   getting_started:
     overview: index.html
+    vim_interfaces: VimInterfaces.html
     enter_upgrade_mode: HowtoBootIntoUpgradeMode.html
     upgrade_via_usb: UpgradeViaUSBCable.html
     upgrade_via_tfcard: UpgradeViaTFBurningCard.html
@@ -34,6 +35,7 @@ vim:
 vim2:
   getting_started:
     overview: index.html
+    vim2_interfaces: Vim2Interfaces.html
     enter_upgrade_mode: HowtoBootIntoUpgradeMode.html
     upgrade_via_usb: UpgradeViaUSBCable.html
     upgrade_via_tfcard: UpgradeViaTFBurningCard.html

@@ -19,6 +19,7 @@ sidebar:
   vim:
     getting_started: 开始使用
     overview: 概述
+    vim_interfaces: VIM接口描述
     enter_upgrade_mode: 进入升级模式
     upgrade_via_usb: 通过USB升级
     upgrade_via_tfcard: 通过TF卡升级
@@ -50,6 +51,7 @@ sidebar:
   vim2:
     getting_started: 开始使用
     overview: 概述
+    vim2_interfaces: VIM2接口描述
     enter_upgrade_mode: 进入升级模式
     upgrade_via_usb: 通过USB升级
     upgrade_via_tfcard: 通过TF卡升级
