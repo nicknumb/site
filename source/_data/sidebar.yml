@@ -25,7 +25,7 @@ vim:
     build_android: BuildAndroid.html
     setup_adb: SetupADB.html
   linux:
-    overview: index.html
+    fenix_script: FenixScript.html
   hardware:
     overview: HardwareDocs.html
   firmware:

@@ -43,6 +43,7 @@ sidebar:
     build_android: 编译安卓源码
     setup_adb: 设置ADB
     linux: Linux
+    fenix_script: 编译Ubuntu/Debian固件
     hardware: 硬件资料
     firmware: 固件下载
     download: 下载
